@@ -1,0 +1,4 @@
+express.js is a framework and it is manages everything from recieving requests to sending responses.
+middleware is something that carries out tasks between the request sent from the user to the receiving and sending back response from the server, middlewares perform the inbetween tasks.
+when we implement, app.use() before going to any route, it HAS TO pass through the app.use()
+various types of defining middleware - application-level middleware(global), route-specific middleware, Multiple middleware in single route, Router level middleware, Built-in midddleware, Third-party middleware, error handling middleware.
